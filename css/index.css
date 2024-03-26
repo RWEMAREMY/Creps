@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  list-style: none;
+  color: aliceblue;
+}
+body {
+  background-color: #101113;
+}
+/* ----------------------------------nav-bar----------------------------------------- */
+.nav-bar {
+  display: flex;
+  height: 90px;
+  background: linear-gradient(to top left, #ec7363 20%, #101113 50%);
+}
+.nav-bar-img {
+  height: 100%;
+  width: 200px;
+  margin-left: 10rem;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+.nav-bar-content {
+  display: flex;
+  margin-left: 23rem;
+}
+.nav-bar-content-list {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 50px;
+  font-size: medium;
+  font-weight: bolder;
+  color: aliceblue;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.nav-bar-content-list:hover {
+  color: #0b0b0b;
+  font-size: larger;
+}
+/* ---------------------hook1---------------------------------------- */
+
+.hook1 {
+  margin-top: 30px;
+  float: left;
+  margin-left: 10rem;
+}
+.lenz-hook1-color {
+  color: #ec7363;
+}
+.lenz-hook1-h2 {
+  margin-left: 40px;
+}
+.hook1-p {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: large;
+}
+
+/* ----------------hook1-sec---------------------------- */
+
+.hook1-sec {
+  font-size: xx-large;
+}
+.image-hook1 {
+  background: radial-gradient(rgba(227, 227, 16, 0.588), #101113 65%);
+  border-radius: 40rem;
+  margin-top: 2%;
+  margin-left: 10rem;
+  padding-top: 0;
+  transform: rotate(-16deg);
+  transition: 3.3s;
+}
+/* ----------today-deal----------- */
+.today-deal {
+  margin-left: 23rem;
+  position: fixed; 
+  top: 25rem;
+  left: 3rem; 
+  z-index: 1000; 
+  color: #ec7363;
+  font-size: xx-large;
+}
+
