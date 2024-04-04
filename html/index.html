@@ -1,9 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <title>lenz clog</title>
     <link
       rel="icon"
@@ -20,16 +23,22 @@
         <a href="/html/index.html">
           <img class="nav-bar-img" src="/IMAGES/lenz-logo.png" />
         </a>
-        <ul class="nav-bar-content">
-          <a href="/html/index.html"
-            ><li class="nav-bar-content-list">home</li></a
-          >
-          <a href="#"><li class="nav-bar-content-list">about us</li></a>
-          <a href="#"><li class="nav-bar-content-list">items</li></a>
-          <a href="#"><li class="nav-bar-content-list">blogs</li></a>
-          <a href="#"><li class="nav-bar-content-list">contact</li></a>
-          <a href="#"><li class="nav-bar-content-list">login</li></a>
-        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+
+          <div class="list-content">
+            <ul class="nav-bar-content all">
+              <a href="/html/index.html"
+                ><li class="nav-bar-content-list">home</li></a
+              >
+              <a href="#"><li class="nav-bar-content-list">about us</li></a>
+              <a href="#"><li class="nav-bar-content-list">items</li></a>
+              <a href="#"><li class="nav-bar-content-list">blogs</li></a>
+              <a href="#"><li class="nav-bar-content-list">contact</li></a>
+              <a href="#"><li class="nav-bar-content-list">login</li></a>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     <!-- -------------------------hook---------------------------------------- -->
@@ -68,4 +77,3 @@
     <script src="/JS/index.js"></script>
   </body>
 </html>
-
